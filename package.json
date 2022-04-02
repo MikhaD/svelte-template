@@ -1,5 +1,5 @@
 {
-  "name": "create-svelteapp",
+  "name": "@mikhad/create-svelte",
   "version": "0.0.0",
   "description": "A tool to create svelte and sveltekit apps",
   "author": "MikhaD <mikhadavids@gmail.com> (https://github.com/MikhaD)",
@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/MikhaD/create-svelteapp.git"
+    "url": "git+https://github.com/MikhaD/svelte-template.git"
   },
   "keywords": [
     "svelte",
@@ -22,7 +22,7 @@
     "template"
   ],
   "bugs": {
-    "url": "https://github.com/MikhaD/create-svelteapp/issues"
+    "url": "https://github.com/MikhaD/svelte-template/issues"
   },
-  "homepage": "https://github.com/MikhaD/create-svelteapp#readme"
+  "homepage": "https://github.com/MikhaD/svelte-template#readme"
 }
