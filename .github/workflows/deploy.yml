@@ -18,6 +18,8 @@ jobs:
         run: npm ci
       - name: compile
         run: npm run build
+      - name: remove unneeded files
+        run: rm -rf src .github package-lock.json rollup.config.js tsconfig.json .gitignore
       - uses: JS-DevTools/npm-publish@v1
         with:
           token: ${{ secrets.NPM_TOKEN }}

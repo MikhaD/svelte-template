@@ -1,6 +1,6 @@
 {
   "name": "@mikhad/create-svelte",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A tool to create svelte and sveltekit apps",
   "author": "MikhaD <mikhadavids@gmail.com> (https://github.com/MikhaD)",
   "license": "GPL-3.0",
