@@ -1,16 +1,21 @@
 {
-  "extends": "@tsconfig/svelte/tsconfig.json",
-  "compilerOptions": {
-    "types": [
-      "svelte"
-    ]
-  },
-  "include": [
-    "src/**/*"
-  ],
-  "exclude": [
-    "node_modules/*",
-    "__sapper__/*",
-    "public/*"
-  ]
+	"compilerOptions": {
+		"target": "ESNEXT",
+		"module": "esnext",
+		"moduleResolution": "Node",
+		"baseUrl": "./",
+		"rootDir": "./src",
+		"removeComments": true,
+		"strict": true,
+		"noImplicitOverride": true,
+		"noImplicitReturns": true,
+		"noPropertyAccessFromIndexSignature": true,
+		"noUnusedLocals": true,
+		"noUnusedParameters": true,
+		"esModuleInterop": true,
+		"forceConsistentCasingInFileNames": true,
+	},
+	"exclude": [
+		"./template"
+	]
 }

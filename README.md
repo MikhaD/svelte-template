@@ -1,7 +1,7 @@
 # Svelte Template Tool
 
 ```bash
-npm init svelteapp [directory]
+npm init @mikhad/svelte
 ```
 
 This is a work in progress and is not currently working. At the moment it just includes my previous svelte template, which I intend to drastically improve and automate.
@@ -17,7 +17,7 @@ This is a work in progress and is not currently working. At the moment it just i
   - Do you want a skeleton or starter app?
   - Do you want a github action to deploy to github pages for you?
 
-- Dependabot on the github repo to keep the dependancies up to date
+- Dependabot on the github repo to keep the dependencies up to date
 - Action to deploy to NPM
 - The stuff that the regular sveltekit init asks you (Prettier, EsLint etc.)
 </details>
